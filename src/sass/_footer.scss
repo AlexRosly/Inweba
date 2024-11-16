@@ -1,0 +1,35 @@
+.footer__container {
+  padding: 44.12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copyright__text {
+  font-family: $font-family-roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: $second-text-color;
+}
+
+.footer__list {
+  display: flex;
+  font-family: $font-family-roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.footer__item-link {
+  padding: 12px 8px;
+  color: $black-color;
+}
+
+.footer__item-link-mod {
+  padding: 12px 14px;
+}

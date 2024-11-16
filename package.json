@@ -1,0 +1,32 @@
+{
+  "name": "inweba",
+  "version": "1.0.0",
+  "description": "test task for Innovative Web Agency (Inweba)",
+  "main": "index.js",
+  "homepage": "https://github.com/AlexRosly/Inweba",
+  "scripts": {
+    "start": "parcel src/*.html ",
+    "build": "parcel build src/*.html --public-url /Inweba/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRosly/Inweba.git"
+  },
+  "keywords": [],
+  "author": "Alexander Roslyi <rosly.a777@gmail.com>",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "parcel-bundler": "1.12.3",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
